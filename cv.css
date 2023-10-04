@@ -1,0 +1,88 @@
+/* Reset default margins and paddings */
+body, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the page background */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Style the CV container */
+div {
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Style the profile picture */
+img.pic {
+  max-width: 100px;
+  border-radius: 50%;
+  left: 920px;
+}
+
+/* Style the header */
+h3.sp {
+  font-size: 18px;
+  color: #333;
+  text-align: center; /* Center the title text */
+}
+
+/* Style headings and horizontal rules */
+h3 {
+  font-size: 16px;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 15px;
+}
+/* Style list items */
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Style the company name */
+span {
+  font-weight: bold;
+}
+
+/* Style the objective paragraph */
+p.objective {
+  margin-top: 10px;
+}
+
+/* Style the email and contact number */
+p.email, p.contact {
+  margin-top: 5px;
+}
+
+/* Style the time duration */
+p.duration {
+  font-style: italic;
+}
+
+/* Style the project title */
+p.project-title {
+  font-weight: bold;
+}
+
+/* Style the objectives of study */
+ul.objectives {
+  margin-left: 20px;
+}
